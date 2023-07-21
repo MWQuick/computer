@@ -1,0 +1,11 @@
+Capabilities
+--Interrubtibility of programs  [✓]
+--Basic startup resume          [✓]
+    --GPS and Program recall    [✓]
+--Selective C2                  [☐]
+
+Programs
+--Deploy GPS array              [☐]
+    ++Do so without rednet      [☐]
+--Library                       [☐]
+    ++Unpacker for pastebin     [☐]
