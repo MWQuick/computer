@@ -29,3 +29,7 @@ end
 -- event.listen("custom_stop_event", handleStopEvent)
 -- parallel.waitForAny(dance_eventHandler,performDance)
 parallel.waitForAny(rednet.receive,performDance)
+
+
+--rednet.receive ~~~ [os.pullEvent(rednet_message)] |||| os.pullEvent(modem_message)
+-- These all rely on os.pullEvent which yield and therefore allow for parallelization.
