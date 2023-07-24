@@ -1,0 +1,4 @@
+Notes about the lua language:
+-- Function placement matters, if a function is called before it is declared then it will error out, even if the program doesn't /actually/ call it until after the function is defined, it's still a runtime error
+-- Multiple assignment is based
+-- Lots and lots and lots and lots of nil 

@@ -27,9 +27,10 @@ end
 local function loadTurtleInfo()
     local file = fs.open(saveFile, "r")
     local data = split(file.readLine(),",")
-    local location = data[1]
-    local heading = data[2]
-    local script = data[3]
+    local location, heading, script = data[1], data[2], data[3]
+    -- local location = data[1]
+    -- local heading = data[2]
+    -- local script = data[3]
     file.close()
     return location, heading, script
 end
